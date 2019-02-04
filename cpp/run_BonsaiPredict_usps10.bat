@@ -13,7 +13,7 @@ SET input_dir=-D ./usps10
 SET input_format=-f 0
 
 REM # Note: The model_dir has to be changed as Model naming is based on timestamp so required to be changed by the user
-SET model_dir=-M ./usps10/BonsaiResults/23_44_23_15_11
+SET model_dir=-M ./usps10/BonsaiResults/8_17_15_16_1
 
 REM ########################################################
 REM # Data-dependent parameters
@@ -25,7 +25,7 @@ REM ########################################################
 REM # execute Bonsai
 REM ########################################################
 
-SET executable=./BonsaiPredict
+SET executable=./BonsaiPredict.exe
 SET command=%executable% %input_format% %ntest% %input_dir% %model_dir%
 @ECHO ON
 ECHO Running Bonsai Predict with following command: 

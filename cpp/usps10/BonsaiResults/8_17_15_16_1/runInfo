@@ -1,0 +1,21 @@
+Final Test Accuracy = 0.934230
+HyperParams: 
+	Tree Depth: 3
+	Projected Dimension: 28
+	Sparsity Fractions: 
+		Z: 0.2
+		W: 0.3
+		V: 0.3
+		Theta: 0.62
+	Regularizers: 
+		Z: 0.0001
+		W: 0.001
+		V: 0.001
+		Theta: 0.001
+	Sigma: 1
+ 
+	Batch factor: 1
+ 
+	Iters: 100
+ 
+	Total Nonzeros: 4081
